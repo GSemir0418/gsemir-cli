@@ -4,7 +4,7 @@
 
 基础项目 [vite + react + typescript](https://www.vitejs.net/guide/#scaffolding-your-first-vite-project)
 
-可选项 [zustand](https://zustand-demo.pmnd.rs/)、`axios`、[tailwind](https://tailwindcss.com/)、[antfu-eslint](https://github.com/antfu/eslint-config)、`antd`
+可选项 [react-router](https://reactrouter.com/en/main)、[zustand](https://zustand-demo.pmnd.rs/)、`axios`、[tailwind](https://tailwindcss.com/)、[antfu-eslint](https://github.com/antfu/eslint-config)、`antd`
 
 ### 使用
 
@@ -32,6 +32,14 @@ npx gsemir-cli create <app-name>
 
 然后将可选项抽离为代码段（依赖、配置文件等）注入到模版中
 
+本质上就是按照第三方库的官方文档，把 npm install 的过程转为修改 package.json 的过程，然后参考官网的配置准备对应配置的模版文件即可
+
 #### 优化
 
 TODO
+
+router
+
+版本
+
+loading

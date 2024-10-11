@@ -1,6 +1,6 @@
 {
   "name": "gsemir-cli",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "一个用于快速创建 vite react ts 开发框架的命令行工具",
   "type": "module",
   "main": "bin/cli.js",
@@ -12,7 +12,7 @@
     "start": "node bin/cli.js"
   },
   "bin": {
-    "cli": "./bin/cli.js"
+    "gsemir-cli": "./bin/cli.js"
   },
   "files": [
     "bin",
